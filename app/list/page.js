@@ -15,7 +15,7 @@ export default async function List() {
                     <div className="list-item" key={i}>
                         <h4> {result[i].title}</h4>
                         <p>{result[i].content}</p>
-                        <a>자세히보기</a>
+                        <a>자세히보기 </a>
                     </div>
                 )
                 
